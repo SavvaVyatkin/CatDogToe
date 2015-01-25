@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="whosFirst">
+        <item>@string/aiFirstLabel</item>
+        <item>@string/userFirstLabel</item>
+    </array>
+    <array name="optionsDialog">
+        <item>@string/continueLabel</item>
+        <item>@string/menuLabel</item>
+    </array>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dip"
+        android:text="@string/app_name"
+        android:textSize="24.5sp" />
+
+    <Button
+        android:id="@+id/HardDifficulty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/HardLabel" />
+
+    <Button
+        android:id="@+id/MediumDifficulty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MediumLabel" />
+
+    <Button
+        android:id="@+id/EasyDifficulty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/starLabel" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exitLabel" />
+
+
+</LinearLayout>

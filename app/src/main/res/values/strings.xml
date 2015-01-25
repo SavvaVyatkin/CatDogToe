@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cat-Dog-Toe</string>
+    <string name="starLabel">Easy Level</string>
+    <string name="MediumLabel">Medium Level</string>
+    <string name="HardLabel">Impossible Level</string>
+    <string name="continueLabel">Continue</string>
+    <string name="exitLabel">Exit Game</string>
+    <string name="menuLabel">Menu</string>
+
+    <string name="aiFirstLabel">Computer</string>
+    <string name="userFirstLabel">Player</string>
+    <string name="whosFirstLabel">Who is first?</string>
+    <string name="youLabel">Player</string>
+    <string name="aiLabel">Computer</string>
+
+</resources>
