@@ -114,13 +114,13 @@ public class Board implements BoardInterface {
     /**
      * checks if the spot is taken
      */
-    private boolean isBoardEmpty() {
-        for (int i = 0; i < 3; i++)
-            for (int j = 0; j < 3; j++)
-                if (!this.board[i][j].equals(" "))
-                    return false;
-        return true;
-    }
+//    protected boolean isBoardEmpty() {
+//        for (int i = 0; i < 3; i++)
+//            for (int j = 0; j < 3; j++)
+//                if (!this.board[i][j].equals(" "))
+//                    return false;
+//        return true;
+//    }
 
     /*
      * checks if the board is full
@@ -217,7 +217,7 @@ public class Board implements BoardInterface {
         return getRandomMove(o2);
     }
 
-    protected boolean checkCorner(int i, int j, String o2) {
+    protected boolean checkCorner(int i, int j) {
         return this.board[i][j].equals(" ");
     }
 
