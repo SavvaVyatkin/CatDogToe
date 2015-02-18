@@ -41,7 +41,6 @@ target
 *.ipr
 *.iws
 .idea
-.idea/
 
 # Eclipse
 bin
@@ -54,13 +53,12 @@ bin
 *.project
 .checkstyle
 
-#PMD
+# PMD
 .pmd
 .pmdruleset
 
 # Netbeans
 nbproject/private/
-build/
 nbbuild/
 dist/
 nbdist/
@@ -71,6 +69,6 @@ nb-configuration.xml
 devBootcampDS/
 derby.log
 
-
-#Hector
+# Hector
 tmp/
+
